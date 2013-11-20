@@ -41,8 +41,22 @@ Uma região de 15m de comprimento foi delimitada, por onde os participantes anda
 
 \section{Resultados}
 
+Os dados medidos são apresentados na tabela \ref{tab_medidas}, exceto o comprimento $L$ do membro inferior que se encontra na tabela \ref{tab_calculados}. Cálculou-se então a cadência de passos(CD), o comprimento do passo(CP) e a velocidade do andar(Va e Vb), estes dados se apresentam na tabela \ref{tab_calculados}. Os cálculos foram realizados segundo as formulas:
+
+\begin{equation}
+ CD = \frac{N_p}{t}
+
+\end{equation}
+
+
+
+
+
+A variação de CD e CP em função da passada são apresentados respectivamente nos gráficos \ref{plotCDxVa} e \ref{plotCPxVa}.
+
+
+
 \begin{table}
-\label{tab_medidas}
 \begin{center}
 \begin{tabular}{l|ccc|ccc}
  & \multicolumn{3}{|c|}{N$^o$ de Passos} & \multicolumn{3}{|c}{Tempo(s)}\\
@@ -54,12 +68,11 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
 \end{tabular}
 \end{center}
 \caption{Dados Medidos}
+\label{tab_medidas}
 \end{table}
 
-
-
 \begin{table}
-\label{tab_calculados}
+
 \begin{center}
 \begin{tabular}{ll|lcccc}
 &L(m)&velocidade & CD(passos/s) & CP(m) & Va(m/s) & Vb(m/s)\\
@@ -77,7 +90,8 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
  & &Rápida & 2.05 & 1.07 & 2.20 & 2.20\\
 \end{tabular}
 \end{center}
-\caption{Váriaveis Calculadas}
+\caption{Variáveis Calculadas}
+\label{tab_calculados}
 \end{table}
 
 \begin{figure}[h]
@@ -85,10 +99,19 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
  \includegraphics[scale=0.5,keepaspectratio=true]{./plot_CDxVa.pdf}
  % plot_CDxVa.pdf: 585x441 pixel, 72dpi, 20.64x15.56 cm, bb=0 0 585 441
  \caption{Gráfico Cadência de passos(CD) pela Velocidade do Andar(Va)}
+ \label{plotCDxVa}
 \end{figure}
 
+\begin{figure}[h]
 
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./plot_CPxVa.pdf}
+ % plot_CDxVa.pdf: 585x441 pixel, 72dpi, 20.64x15.56 cm, bb=0 0 585 441
+ \caption{Gráfico Comprimento do passos(CP) pela Velocidade do Andar(Va)}
+ \label{plotCPxVa}
+\end{figure}
 
+\FloatBarrier
 \section{Discussão}
 
 
