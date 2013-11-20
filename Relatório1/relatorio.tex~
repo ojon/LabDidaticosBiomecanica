@@ -42,6 +42,7 @@ Uma região de 15m de comprimento foi delimitada, por onde os participantes anda
 \section{Resultados}
 
 \begin{table}
+\label{tab_medidas}
 \begin{center}
 \begin{tabular}{l|ccc|ccc}
  & \multicolumn{3}{|c|}{N$^o$ de Passos} & \multicolumn{3}{|c}{Tempo(s)}\\
@@ -58,6 +59,7 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
 
 
 \begin{table}
+\label{tab_calculados}
 \begin{center}
 \begin{tabular}{ll|lcccc}
 &L(m)&velocidade & CD(passos/s) & CP(m) & Va(m/s) & Vb(m/s)\\
@@ -77,6 +79,22 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
 \end{center}
 \caption{Váriaveis Calculadas}
 \end{table}
+
+\begin{figure}[h]
+\label{plotCDxVa}
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./plot_CDxVa.pdf}
+ % plot_CDxVa.pdf: 585x441 pixel, 72dpi, 20.64x15.56 cm, bb=0 0 585 441
+ \caption{Gráfico Cadência de passos(CD) pela Velocidade do Andar(Va)}
+\end{figure}
+
+\begin{figure}[h]
+\label{plotCPxVa}
+ \centering
+ \includegraphics[scale=0.5,keepaspectratio=true]{./plot_CPxVa.pdf}
+ % plot_CDxVa.pdf: 585x441 pixel, 72dpi, 20.64x15.56 cm, bb=0 0 585 441
+ \caption{Gráfico Cadência de passos(CD) pela Velocidade do Andar(Va)}
+\end{figure}
 
 
 \section{Discussão}
