@@ -41,20 +41,46 @@ Uma região de 15m de comprimento foi delimitada, por onde os participantes anda
 
 \section{Resultados}
 
-Os dados medidos são apresentados na tabela \ref{tab_medidas}, exceto o comprimento $L$ do membro inferior que se encontra na tabela \ref{tab_calculados}. Cálculou-se então a cadência de passos(CD), o comprimento do passo(CP) e a velocidade do andar(Va e Vb), estes dados se apresentam na tabela \ref{tab_calculados}. Os cálculos foram realizados segundo as formulas:
+Os dados medidos são apresentados na tabela \ref{tab_medidas}, exceto o comprimento $L$ do membro inferior que se encontra na tabela \ref{tab_calculados}. Calculou-se então a cadência de passos($CD$), o comprimento do passo($CP$) e a velocidade do andar($Va$ e $Vb$), estes dados se apresentam na tabela \ref{tab_calculados}. Os cálculos foram realizados segundo as formulas:
 
 \begin{equation}
+\label{eq_CD}
  CD = \frac{N_p}{t}
+\end{equation}
 
+\begin{equation}
+\label{eq_CP}
+CP = \frac{d}{N_p}
+\end{equation}
+
+\begin{equation}
+ \label{eq_Va}
+ Va = \frac{d}{t}
+\end{equation}
+
+\begin{equation}
+\label{eq_Vb}
+Vb = CP \times CD 
+\end{equation}
+
+Sendo $d$ a distância percorrida, $N_p$ o número de passos e $t$ tempo gasto. Desta forma ressaltamos que os valores calculados são valores médios para o percurso.
+
+A variação de $CD$ e $CP$ em função de $Va$ são apresentados respectivamente nos gráficos \ref{plotCDxVa} e \ref{plotCPxVa}.
+
+Os dados foram normalizados com relação ao comprimento do membro inferior($L$) e tornados adimensionais seguindo:
+\begin{equation}
+CP_{norm} = \frac{CP}{L}
+\end{equation}
+\begin{equation}
+CD_{norm} = CD \sqrt{\frac{L}{g}}
+\end{equation}
+\begin{equation}
+Va_{norm} = \frac{Va}{\sqrt{gL}}
 \end{equation}
 
 
-
-
-
-A variação de CD e CP em função da passada são apresentados respectivamente nos gráficos \ref{plotCDxVa} e \ref{plotCPxVa}.
-
-
+Os valores normalizados são apresentados na tabela \ref{tab_norm} e podem ser visualizados na
+figura \ref{plotNorm}
 
 \begin{table}
 \begin{center}
@@ -72,7 +98,6 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
 \end{table}
 
 \begin{table}
-
 \begin{center}
 \begin{tabular}{ll|lcccc}
 &L(m)&velocidade & CD(passos/s) & CP(m) & Va(m/s) & Vb(m/s)\\
@@ -94,6 +119,26 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
 \label{tab_calculados}
 \end{table}
 
+%e & $CD_{norm}$ & $CP_{norm$) & $Va_norm$ \\
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l|ccc|ccc|ccc}
+& \multicolumn{3}{|c|}{$CD$} & \multicolumn{3}{|c}{$CP$} & \multicolumn{3}{|c}{$Va$}\\
+velocidade & \textbf{C} & \textbf{D} & \textbf{J} & \textbf{C} & \textbf{D} & \textbf{J} & \textbf{C} & \textbf{D} & \textbf{J} \\ \hline
+Lenta & 1.65 & 1.72 & 1.38 & 0.72 & 0.70 & 0.62 & 1.19 & 1.21 & 0.86\\
+Confortável & 1.96 & 1.75 & 1.42 & 0.78 & 0.76 & 0.83 & 1.53 & 1.33 & 1.18\\
+Rápida & 2.04 & 2.02 & 2.05 & 1.04 & 0.91 & 1.07 & 2.12 & 1.85 & 2.20
+\end{tabular}
+\end{center}
+
+\caption{Variáveis Normalizadas}
+\label{tab_norm}
+\end{table}
+
+
+
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.5,keepaspectratio=true]{./plot_CDxVa.pdf}
@@ -111,8 +156,39 @@ Rápida & 18 & 20 & 14 & 7.91 & 8.97 & 6.82
  \label{plotCPxVa}
 \end{figure}
 
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.6,keepaspectratio=true]{./plot_Norm.pdf}
+ % plot_Norm.pdf: 585x441 pixel, 72dpi, 20.64x15.56 cm, bb=0 0 585 441
+ \caption{Gráfico da cadência de passos e comprimento do passo em função da velocidade do andar, todos os dados estão normalizados e são adimensionais}
+ \label{plotNorm}
+\end{figure}
+
+
 \FloatBarrier
 \section{Discussão}
+\subsection{Questões Propostas}
+\subsubsection{Existe alguma relação entre CP e CD com o aumento de velocidade?}
+As variáveis $CP$ e $CD$ estão relacionadas com a velocidade, a medida que a velocidade aumenta as variáveis também aumentam. Isto é um fato para todas as observações intra-indivíduos.
+
+\subsubsection{Compare os resultados encontrados para Va e Vb, existiu diferença? Comente.}
+Não houve diferença para $Va$ e $Vb$. pelas próprias formulas(\ref{eq_CD} \ref{eq_CP} \ref{eq_Va} \ref{eq_Vb}) utilizadas observamos:
+
+\begin{equation}
+   Vb = CP \times CD = \frac{d}{N_p} \frac{N_p}{t} = \frac{d}{t} = Va
+\end{equation}
+
+\subsubsection{Comente a respeito dos erros de medida e dê sugestões de como diminuí-los (pense em soluções simples e também na utilização de instrumentos para, por exemplo, uma melhor quantificação do tempo decorrido).}
+
+Houve um pequeno erro de medição para a distância total de percurso (15m), pois a ferramenta utilizada(trena) para medir essa distância não atingiu o comprimento desejado. Sendo assim, faz-se importante verificar antes da realização do experimento se há equipamentos adequados para a realização dos mesmos.
+
+A demora, mesmo que mínima, em iniciar e/ou parar o cronômetro podem ter ocasionado erros de cronometragem. Assim, seria interessante a utilização de equipamentos como sensores que iniciam e/ou param o cronômetro logo que a planta de um dos lados dos pés se posiciona no local desejado.
+
+O conhecimento dos os métodos de análise do experimento pode influenciar os voluntários no desempenho da tarefa. 
+
+O principal erro é de natureza sistemática, proveniente do procedimento adotado para medir a distância percorrida, esta foi considerada constante(15m), porem a distância percorrida é em geral maior, porem não mais do que o comprimento de dois passos.
+
+A dificuldade do indivíduo em manter uma velocidade constante nos três ritmos de velocidade (lento, confortável e rápido) pode ocasionar erros de medição. A utilização de câmeras de vídeo ou fotográficas de uma forma sistemática podem proporcionar maior clareza e detalhes durante a observação da marcha, minimizando os erros de medição do experimento.
 
 
 
