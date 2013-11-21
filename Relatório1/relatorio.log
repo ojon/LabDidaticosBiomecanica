@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.4)  21 NOV 2013 01:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.4)  21 NOV 2013 16:48
 entering extended mode
  %&-line parsing enabled.
 **relatorio.tex
@@ -497,21 +497,21 @@ Package: placeins 2005/04/18  v 2.2
 ) (./relatorio.aux)
 \openout1 = `relatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-Package hyperref Info: Link coloring OFF on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -521,8 +521,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
  (./relatorio.out)
 (./relatorio.out)
 \@outlinefile=\write3
@@ -547,7 +547,7 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (18.83403pt too wide) in paragraph at lines 70--71
+Overfull \hbox (18.83403pt too wide) in paragraph at lines 73--74
 []\OT1/cmr/m/n/10 Os da-dos foram nor-mal-iza-dos com rela^^Xc~ao ao com-pri-me
 nto do mem-bro inferior($\OML/cmm/m/it/10 L$\OT1/cmr/m/n/10 )
  []
@@ -567,7 +567,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./plot_Norm.pdf, id=74, 587.19376pt x 442.65375pt>
 File: ./plot_Norm.pdf Graphic file (type pdf)
  <use ./plot_Norm.pdf>
-Overfull \hbox (7.31897pt too wide) in paragraph at lines 162--164
+Overfull \hbox (7.31897pt too wide) in paragraph at lines 165--167
  [][] 
  []
 
@@ -575,16 +575,16 @@ Overfull \hbox (7.31897pt too wide) in paragraph at lines 162--164
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2] [3 <./plot_CDxVa.pdf>] [4 <./plot_CPxVa.pdf> <./plot_Norm.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
 
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 
-Overfull \hbox (23.43404pt too wide) in paragraph at lines 190--190
+Overfull \hbox (23.43404pt too wide) in paragraph at lines 193--193
 []\OT1/cmr/bx/n/10 Compare os re-sul-ta-dos en-con-tra-dos para Va e Vb, ex-is-
 tiu diferen^^Xca?
  []
@@ -593,13 +593,13 @@ tiu diferen^^Xca?
 
 ] [6] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 6396 strings out of 495061
- 92228 string characters out of 1182622
- 180881 words of memory out of 3000000
+ 6399 strings out of 495061
+ 92268 string characters out of 1182622
+ 180895 words of memory out of 3000000
  9438 multiletter control sequences out of 15000+50000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 38i,8n,38p,621b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31 hyphenation exceptions out of 8191
+ 38i,8n,38p,618b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/sha
@@ -611,7 +611,7 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on relatorio.pdf (6 pages, 208483 bytes).
+Output written on relatorio.pdf (6 pages, 208505 bytes).
 PDF statistics:
  270 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
