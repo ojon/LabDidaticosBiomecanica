@@ -167,6 +167,11 @@ Rápida & 2.04 & 2.02 & 2.05 & 1.04 & 0.91 & 1.07 & 2.12 & 1.85 & 2.20
 
 \FloatBarrier
 \section{Discussão}
+
+\subsection{Dados Brutos e Normalizados}
+Observando os dados brutos podemos perceber que em geral as sequências de pontos dos indivíduo \textbf{C} e \textbf{D} estão mais próximas entre si do que quando comparadas com a do indivíduo \textbf{J}
+
+
 \subsection{Questões Propostas}
 \subsubsection{Existe alguma relação entre CP e CD com o aumento de velocidade?}
 As variáveis $CP$ e $CD$ estão relacionadas com a velocidade, a medida que a velocidade aumenta as variáveis também aumentam. Isto é um fato para todas as observações intra-indivíduos.
@@ -188,7 +193,7 @@ O conhecimento dos os métodos de análise do experimento pode influenciar os vo
 
 O principal erro é de natureza sistemática, proveniente do procedimento adotado para medir a distância percorrida, esta foi considerada constante(15m), porem a distância percorrida é em geral maior, porem não mais do que o comprimento de dois passos.
 
-A dificuldade do indivíduo em manter uma velocidade constante nos três ritmos de velocidade (lento, confortável e rápido) pode ocasionar erros de medição. A utilização de câmeras de vídeo ou fotográficas de uma forma sistemática podem proporcionar maior clareza e detalhes durante a observação da marcha, minimizando os erros de medição do experimento.
+A dificuldade do indivíduo em manter uma velocidade constante e sem mudança de direção nos três ritmos de velocidade (lento, confortável e rápido) pode ocasionar erros de medição. A utilização de câmeras de vídeo ou fotográficas de uma forma sistemática podem proporcionar maior clareza e detalhes durante a observação da marcha, minimizando os erros de medição do experimento.
 
 Uma solução simples que poderiam contornar algum destes erros seria andar sobre um papel, proveniente por exemplo de um rolo de de papel pardo, com a sola dos pés/calçados recoberta com tinta fresca ou alguma outra alguma outra forma de rastrear as pegadas dos indivíduo.
 
